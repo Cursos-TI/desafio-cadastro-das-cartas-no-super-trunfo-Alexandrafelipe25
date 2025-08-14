@@ -18,7 +18,15 @@ int main() {
     float pib1;
     int pontosturisticos1;
 
-    
+    char estado2 [10];
+    char codigo2 [5];
+    char cidade2 [20];
+    int populacao2;
+    float area2;
+    float pib2;
+    int pontosturisticos2;
+
+
     
     // Cadastro das Cartas:
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
