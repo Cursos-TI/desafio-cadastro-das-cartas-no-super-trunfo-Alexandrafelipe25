@@ -91,7 +91,17 @@ int main() {
     printf("PIB: %f \n", pib1);
     printf("Número de Pontos Turísticos: %d \n",pontosturisticos1);
 
+    printf("Carta 2 \n");
+    printf("Estado: %s \n", estado2);
+    printf("Código: %s \n", codigo2);
+    printf("Nome da Cidade: %s \n", cidade2);
+    printf("População: %d \n", populacao2);
+    printf("Área: %f \n", area2);
+    printf("PIB: %f \n", pib2);
+    printf("Número de Pontos Turísticos: %d \n",pontosturisticos2);
     
+
+
 
     return 0;
 }
