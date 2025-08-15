@@ -17,6 +17,8 @@ int main() {
     float area1;
     float pib1;
     int pontosturisticos1;
+    float densidade1;
+    float percapta1;
 
     char estado2 [10];
     char codigo2 [5];
@@ -25,6 +27,8 @@ int main() {
     float area2;
     float pib2;
     int pontosturisticos2;
+    float densidade2;
+    float percapta2;
 
 
     
