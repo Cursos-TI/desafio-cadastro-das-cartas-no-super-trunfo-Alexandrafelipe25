@@ -12,7 +12,7 @@ int main() {
     char estado1 [10];
     char codigo1 [5];
     char cidade1 [20];
-    int populacao1;
+    unsigned long int populacao1;
     float area1;
     float pib1;
     int pontosturisticos1;
@@ -23,7 +23,7 @@ int main() {
     char estado2 [10];
     char codigo2 [5];
     char cidade2 [20];
-    int populacao2;
+    unsigned long int populacao2;
     float area2;
     float pib2;
     int pontosturisticos2;
@@ -113,6 +113,14 @@ int main() {
     printf("Número de Pontos Turísticos: %d\n",pontosturisticos2);
     printf("Densidade Demográfica: %.2f hab/m²\n", densidade2);
     printf("PIB per Capita: %.2f reais\n", percapita2);
+
+    // Cálculo do Super Poder
+    float superpoder1 = (float)populacao1 + area1 + pib1 + pontosturisticos1 + percapita1 + (1 / densidade1);
+    float superpoder2 = (float)populacao2 + area2 + pib2 + pontosturisticos2 + percapita2 + (1 / densidade2);
+
+    
+
+
 
 
 
